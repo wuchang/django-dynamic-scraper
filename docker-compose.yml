@@ -1,0 +1,10 @@
+version: '2'
+services:
+  dds:
+    build: .
+    volumes:
+      - "./app:/app"
+#    restart: always
+    ports:
+      - "8004:8004"
+ #   command: supervisord
