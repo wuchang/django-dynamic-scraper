@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.join(PROJECT_ROOT, "../.."))
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
 )
-
+ALLOWED_HOSTS =('*',)
 MANAGERS = ADMINS
 
 DATABASES = {
